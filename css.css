@@ -1,0 +1,140 @@
+body{
+	height: 100%;
+  	margin: 0px;
+  	padding: 0px;
+}
+body h2{
+	font-family: Garamond;
+	src: url(Tipografías/Garamond);
+}
+body p{
+	font-family: Barlow;
+	src: url(Tipografías/Barlow);
+}
+.p1{
+	font-weight: 100;
+	font-size: 50px;
+}
+.p2{
+	font-weight: 400;
+	font-size: 70px;
+}
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+.header img{
+	width: 75%;
+	height: 90%;
+}
+.products img{
+	width: 80%;
+	height: 80%;
+}
+.header{
+	background-color: #000000;
+	font-family: Barlow;
+	src: url(Tipografías/Barlow);
+	color: whitesmoke;
+	font-size: 25px;
+	text-decoration: none;
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	min-height: 450px;
+	background-image: url("img/slider.png");
+	background-size: 100%;
+	
+
+}
+.info img{
+	margin-left: 180px;
+	width: 35%;
+	height: 90%;
+}
+.info h2{
+	font-size: 50px;
+}
+.info{
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: left;
+	align-items: left;
+	background-color: #FFFFFF;
+	
+}
+.title2{
+	font-family: Barlow;
+	src: url(Tipografías/Barlow);
+	min-height: 240px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-size: 50;
+	background-image: url("img/banner_sillon.png");
+	background-size: 100%;
+}
+.products{
+	background-color: #FFFFFF;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	image-rendering: 10%;
+}
+
+.contacto{
+	color: whitesmoke;
+}
+.end{
+	background-size: all;
+	background-color: #75DED7;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 25px;
+}
+.caption{
+	display: block;
+}
+i{
+	color: #75DED7;
+}
+button{
+	font-family: Barlow;
+	src: url(Tipografías/Barlow);
+    background-color: #75DED7;
+	color: white;
+	padding: 7px 35px;
+	border: 0 solid transparent;
+	text-align: center;
+}
