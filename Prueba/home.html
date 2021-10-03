@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="js.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+</head>
+<body>
+	<div class="header">
+		<div class="container-fluid">  
+	       	<div class="row col pb-4">
+	          	<div class="col-md-6">
+	              <div class="form-row mt-4">
+	                <div class="col-md-4">
+						<img sizes="center" src="img/logo.png">
+	                </div>
+	              </div>
+            	</div>
+
+	            <div class="col-md-2">
+	              <div class="form-row mt-4">
+	                <div class="col-md-4">
+	                	<a href="#info" >INICIO</a>
+						<a name="info"></a>
+	                </div> 
+	              </div>
+            	</div>
+
+            	<div class="col-md-2">
+	              <div class="form-row mt-4">
+	              	<div class="col-md-4">
+						<a href="#products">PRODUCTOS</a>
+						<a name="products"></a>
+	                </div> 
+	              </div>
+            	</div>
+            	<div class="col-md-2">
+	              <div class="form-row mt-4">
+	              	<div class="col-md-4">
+						<a href="#contact">CONTACTOS</a>
+						<a name="contact"></a>
+	                </div> 
+	              </div>
+            	</div>
+	    	</div>
+	    </div>
+	</div>	
+
+	</div>
+	<div class="title">
+		<p class="p1">MARCA TU</p>
+		<p class="p2">ESTILO PROPIO</p>
+	</div>
+	<div class="info">
+		<div class="container-fluid">  
+	       	<div>
+	       		<div class="row col">
+	       			<div style="width: 50%; float: left;">
+						<img src="img/icono_sillon.png">
+	                </div>
+
+	            	<div class="" style="width: 50%; float: right;">
+						<h2>Nosotros</h2>
+						<p>Nos dedicamos al diseño y restauración de muebles a pedido y a 
+						tu gusto, para que sean únicos, irrepetibles y funcionales.
+						Nuestros diseños nacen de la imaginación y la pasión que 
+						sentimos al crearlos. Buscamos generar piezas únicas en tu 
+						espacio, priorizando sobre todo el confort.
+						Trabajamos muebles con espejos, con pintura glitter y con resina 
+						epóxica</p>	               
+	            	</div>
+	       		</div>
+	    	</div>
+	    </div>
+	</div>
+	<div class="title2">
+		<h1>NOVEDOSOS Y BRILLANTES</h1>
+	</div>
+	<div class="products" id="products">
+		<div class="container-fluid">  
+	       	<div class="row col pt-5 pb-5 ml-4 mr-4">
+	            <div style="width: 33%; float: left;">
+					<img src="img/IMG_Cómoda.png">
+					<span class="caption"><h2>Cómoda</h2></span>
+					<span class="caption"><p>Dormitorio</p></span>
+            	</div>
+
+	            <div style="width: 34%; float: center;">
+						<img src="img/IMG_Sillon.png">
+						<span class="caption"><h2>Silla</h2></span>
+						<span class="caption"><p>Cocina</p></span>
+						<button type="button">VER MÁS</button>
+            	</div>
+
+	            <div style="width: 33%; float: right;">
+						<img src="img/IMG_Mesaratona.png">
+						<span class="caption"><h2>Mesa ratona</h2></span>
+						<span class="caption"><p>Living/Comedor</p></span>
+            	</div>
+
+	    		</div>
+	        </div>
+	    </div>		
+	</div>
+	<div class="contacto" id="contact">
+		<form id="formulario" class="needs-validation" novalidate> 
+	      <section id="formularios" class="bg-light">
+	        <div class="container-fluid"  style="background-color: #000000">  
+
+	          <div class="row col pt-5 pb-5 ml-4 mr-4">
+
+	            <div class="col-md-8">
+
+	              <h2>Formulario</h2>  
+
+	              <div class="form-row mt-4">
+	                <div class="col-md-4">
+	                  <label for="Nombre">Nombre</label>
+	                  <input type="text" class="form-control" id="Nombre" value="" required>
+	                  <div class="invalid-feedback">
+	                  	Por favor, ingrese un nombre.
+	                  </div>
+	                </div> 
+
+	                <div class="col-md-4">
+	                    <label for="provinciasSelect" >Provincia:</label>
+	                	<select class="form-control" name="Provincias" id="provincia" required>
+	                	</select>
+	                	<div class="invalid-feedback">
+	                		Por favor, seleccione una provincia.
+	                	</div>
+	                </div>
+	              </div>
+
+	              <div class="form-row mt-4">
+	                <div class="col-md-4">
+	                  <label for="Email">E-mail</label>
+	                  <input type="text" class="form-control" id="Email" value="" required>
+	                  <div class="invalid-feedback">
+	                  	Por favor, ingrese un email.
+	                  </div>
+	                </div> 
+
+	                <div class="col-md-4">
+	                    <label for="horarioSelect" >Horario de contacto:</label>
+	                	<select class="form-control" name="Horario" id="horario" required>
+	                	</select>
+	                	<div class="invalid-feedback">
+	                		Por favor, seleccione un horario de contacto.
+	                	</div>
+	                </div>
+	              </div>
+
+	              <div class="form-row mt-4">
+	                <div class="col-md-4">
+	                  <label for="Telefono">Telefono</label>
+	                  <input type="text" class="form-control" id="Telefono" value="" required>
+	                  <div class="invalid-feedback">
+	                  	Por favor, ingrese un telefono.
+	                  </div>
+	                </div> 
+
+	                <div class="col-md-4">
+	                  <label for="Consulta">Consulta</label>
+	                  <input type="text" class="form-control" id="Consulta" value="" required>
+	                  <div class="invalid-feedback">
+	                  	Por favor, ingrese una consulta.
+	                  </div>
+	                </div> 
+	              </div>
+
+					<div class="form-row mt-4">
+	                	<div class="col-md-4">
+	      					<button type="button">Enviar</button>
+	      				</div>
+	    			</div>
+	            </div>
+
+	            <div class="col-md-2">
+	              <h2>Contacto</h2>  
+	              <div class="form-row mt-4">
+	                <div class="col-md-8">
+	                  	<p><i class="bi bi-telephone-fill"> </i>0800-000-000</p>
+	                </div> 
+
+	                <div class="col-md-8">
+	                  	<p><i class="bi bi-whatsapp"> </i>11-00000000</p>
+	                </div>
+
+	                <div class="col-md-8">
+	                  	<p><i class="bi bi-geo-alt-fill"> </i>Lorem ipsum 555</p>
+	                </div>
+	              </div>
+            	</div>
+
+            	<div class="col-md-2">
+	              <h2>Horarios</h2>  
+	              <div class="form-row mt-4">
+	                <div class="col-md-8">
+	                  	<p>Lunes a Viernes</p>
+	                </div> 
+
+	                <div class="col-md-8">
+	                  	<p>10:00 - 19:00 hs.</p>
+	                </div>
+	              </div>
+            	</div>	
+
+				
+	            </div>
+	            
+	        </div>
+	      </section>
+	    </form>
+	</div>
+	<footer class="end pt-5 pb-4 pl-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <p>Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
